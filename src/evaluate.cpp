@@ -161,18 +161,18 @@ namespace {
   const Score ThreatenedByHangingPawn = S(40, 60);
 
   // Assorted bonuses and penalties used by evaluation
-  const Score KingOnOne          = S( 2, 58);
-  const Score KingOnMany         = S( 6,125);
-  const Score RookOnPawn         = S( 7, 27);
-  const Score RookOnOpenFile     = S(43, 21);
-  const Score RookOnSemiOpenFile = S(19, 10);
-  const Score BishopPawns        = S( 8, 12);
-  const Score MinorBehindPawn    = S(16,  0);
-  const Score TrappedRook        = S(92,  0);
-  const Score Unstoppable        = S( 0, 20);
-  const Score Hanging            = S(31, 26);
-  const Score PawnAttackThreat   = S(20, 20);
-  const Score PawnSafePush       = S( 5,  5);
+  const Score KingOnOne          = S( 2, 63);
+  const Score KingOnMany         = S( 8,130);
+  const Score RookOnPawn         = S( 8, 29);
+  const Score RookOnOpenFile     = S(55, 17);
+  const Score RookOnSemiOpenFile = S(24, 14);
+  const Score BishopPawns        = S( 8, 8);
+  const Score MinorBehindPawn    = S(14,  0);
+  const Score TrappedRook        = S(100,  0);
+  const Score Unstoppable        = S( 0, 22);
+  const Score Hanging            = S(27, 32);
+  const Score PawnAttackThreat   = S(21, 21);
+  const Score PawnSafePush       = S( 6,  6);
 
   // Penalty for a bishop on a1/h1 (a8/h8 for black) which is trapped by
   // a friendly pawn on b2/g2 (b7/g7 for black). This can obviously only
